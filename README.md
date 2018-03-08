@@ -1,0 +1,2 @@
+# categorizamus
+Image categorization project
