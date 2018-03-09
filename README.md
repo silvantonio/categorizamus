@@ -1,6 +1,11 @@
 # categorizamus
 Image categorization project
 
+Install
+
+git submodule add https://github.com/tensorflow/tensorflow.git tensorflow --init
+
+
 Train products
 
 python tensorflow/tensorflow/examples/image_retraining/retrain.py  \
