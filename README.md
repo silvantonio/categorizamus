@@ -1,12 +1,15 @@
 # categorizamus
 Image categorization project
 
-Install
+Install:
 
 git submodule add https://github.com/tensorflow/tensorflow.git tensorflow --init
 
+Execute:
+docker-compose up
+docker exec -it machine_learning_web bash
 
-Train products
+Train products:
 
 python tensorflow/tensorflow/examples/image_retraining/retrain.py  \
 --bottleneck_dir=dataset/products/bottlenecks \
