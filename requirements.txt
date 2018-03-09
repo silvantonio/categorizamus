@@ -1,0 +1,16 @@
+requests
+tensorflow
+numpy
+scipy
+matplotlib
+pandas
+sympy
+flask
+redis
+sklearn
+jupyter
+Pillow
+scikit-learn
+scikit-image
+systems
+
