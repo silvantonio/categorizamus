@@ -7,7 +7,7 @@ git submodule add https://github.com/tensorflow/tensorflow.git tensorflow --init
 
 Execute:
 docker-compose up
-docker exec -it machine_learning_web bash
+docker exec -it categorizamus_web_1 bash
 
 Train products:
 
