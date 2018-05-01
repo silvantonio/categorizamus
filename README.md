@@ -1,7 +1,15 @@
-# categorizamus
+Categorizamus: image categorization
+=======================================
 Image categorization project
 
-Install:
+
+Requirements
+------------
+
+- Python 3.5.x 
+
+Quick start
+-----------
 
 git submodule add https://github.com/tensorflow/tensorflow.git tensorflow --init
 
@@ -9,7 +17,7 @@ Execute:
 docker-compose up
 docker exec -it categorizamus_web_1 bash
 
-Train products:
+### How to train dataset:
 
 python tensorflow/tensorflow/examples/image_retraining/retrain.py  \
 --bottleneck_dir=dataset/products/bottlenecks \
